@@ -14,8 +14,8 @@
         />
     <item
         android:id="@+id/capture"
-        android:title="Capture"
-        android:icon="@drawable/ic_baseline_camera_24"
+        android:title=""
+
         />
     <item
         android:id="@+id/settings"
