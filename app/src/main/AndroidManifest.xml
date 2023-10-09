@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PrototypeApp">
         <activity
-            android:name=".LogIn"
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".intro"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

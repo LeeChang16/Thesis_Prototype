@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_intro"
-    tools:context=".LogIn">
+    tools:context=".intro">
 
 
     <TextView
@@ -17,7 +17,7 @@
         android:layout_marginEnd="143dp"
         android:layout_marginBottom="560dp"
         android:text="Welcome"
-        android:textColor="@color/white"
+        android:textColor="#257425"
         android:textSize="55sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,11 +41,12 @@
         app:srcCompat="@drawable/leaf_logo"></ImageView>
 
     <LinearLayout
-        android:layout_width="403dp"
-        android:layout_height="320dp"
+        android:layout_width="407dp"
+        android:layout_height="142dp"
         android:layout_marginStart="3dp"
         android:layout_marginTop="21dp"
         android:layout_marginEnd="5dp"
+        android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -54,12 +55,10 @@
         <Button
             android:id="@+id/login"
             style="@android:style/Widget.Button"
-            android:layout_width="match_parent"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
-            android:layout_marinEnd="32dp"
             android:background="@drawable/background_btn_intro"
             android:text="Log In"
             android:textColor="#269900"
@@ -67,13 +66,12 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/login2"
+            android:id="@+id/signup"
             style="@android:style/Widget.Button"
-            android:layout_width="match_parent"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_marinEnd="32dp"
             android:background="@drawable/background_btn_intro"
-            android:text="Log In"
+            android:text="Sign Up"
             android:textColor="#269900"
             android:textSize="25sp"
             android:textStyle="bold" />
