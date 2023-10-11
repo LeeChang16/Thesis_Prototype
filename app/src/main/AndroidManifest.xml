@@ -10,13 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PrototypeApp">
         <activity
+            android:name=".signup"
+            android:exported="false" />
+        <activity
             android:name=".login"
             android:exported="false" />
         <activity
-            android:name=".intro"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".intro"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
